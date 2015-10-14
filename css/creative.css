@@ -263,9 +263,16 @@ header .header-content .header-content-inner p {
 }
 @media only screen and (max-width:768px) {
     header #intro {
-        -webkit-transform: translateY(+50%);
-        -ms-transform: translateY(+50%);
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
         transform: translateY(-100%);
+    }
+}
+@media only screen and (max-width:360px) {
+    header #intro {
+        -webkit-transform: translateY(-75%);
+        -ms-transform: translateY(-75%);
+        transform: translateY(-75%);
     }
 }
 
