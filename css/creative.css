@@ -261,18 +261,30 @@ header .header-content .header-content-inner p {
         font-size: 2em;
     }
 }
-@media only screen and (max-width:768px) {
+@media only screen and (width:768px) {
     header #intro {
         -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
     }
+    header .header-content {
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-190%);
+    }
 }
-@media only screen and (max-width:360px) {
+@media only screen and (width:414px) {
     header #intro {
         -webkit-transform: translateY(-75%);
         -ms-transform: translateY(-75%);
-        transform: translateY(-75%);
+        transform: translateY(-100%);
+    }
+}
+@media only screen and (max-width:413px) {
+    header #intro {
+        -webkit-transform: translateY(-75%);
+        -ms-transform: translateY(-75%);
+        transform: translateY(-80%);
     }
 }
 
