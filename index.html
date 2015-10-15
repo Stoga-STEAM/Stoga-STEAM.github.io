@@ -34,6 +34,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Facebook Sharing -->
+    <meta property="og:url"           content="http://stoga-steam.github.io/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Stoga STEAM" />
+    <meta property="og:description"   content="A new initiative for student involvement in science, technology, engineering, art, and math." />
+    <meta property="og:image"         content="STEAM_img.png" />
+
 </head>
 
 <body id="page-top">
@@ -52,7 +59,7 @@
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) {return;}
          js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
+         js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1639839269610991";
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
     </script>
@@ -103,10 +110,8 @@
                     <h1>STEAM</h1>
                     <hr class="light">
                     <p>A new initiative for student involvement in science, technology, engineering, art, and math.</p>
-                    <div class="fb-share-button" data-href="http://stoga-steam.github.io/" data-layout="icon"></div>
                     <a class="btn btn-primary btn-xl page-scroll typeform-share" href="https://mzio.typeform.com/to/JmniGZ" data-mode="1" target="_blank">Sign Up</a>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-
                     &nbsp;&nbsp;&nbsp;
                     <a href="#what-is-steam" class="btn btn-primary btn-xl page-scroll">Learn More</a>
                     <div
@@ -115,6 +120,11 @@
                     data-width="450"
                     data-show-faces="true">
                     </div>
+                    <!-- Your share button code -->
+    <div class="fb-share-button" 
+        data-href="http://www.your-domain.com/your-page.html" 
+        data-layout="button_count">Share us on fb.
+    </div>
                 </div>
             </div>
         </div>
