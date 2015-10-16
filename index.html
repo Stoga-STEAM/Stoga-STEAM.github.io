@@ -46,6 +46,7 @@
 <body id="page-top">
 
     <!--Facebook Javascript SDK-->
+    <div id="fb-root"></div>
     <script>
       window.fbAsyncInit = function() {
         FB.init({
@@ -54,12 +55,11 @@
           version    : 'v2.5'
         });
       };
-
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) {return;}
          js = d.createElement(s); js.id = id;
-         js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1639839269610991";
+          js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1639839269610991";
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
 }, function(response){});
@@ -139,6 +139,10 @@
                     <p class="project-steam-info">Everything culminates in <b>Project STEAM</b>, our own unique take on student research. By launching Stoga's very own student-run startup and innovation team, we're looking to bring students across clubs, skills, and interests the opportunity to tackle open source projects together.</p>
                     <p><b>Think of it as an invitation to do something awesome.</b></p>
                     <p></p>
+                    <div class="fb-share-button" 
+                        data-href="http://stoga-steam.github.io/" 
+                        data-layout="button_count">Share us
+                    </div>
 
                     <a href="#header-particles" class="btn btn-primary btn-xl page-scroll">Return Home</a>
                     &nbsp;&nbsp;&nbsp;
