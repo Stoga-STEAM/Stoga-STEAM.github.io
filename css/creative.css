@@ -277,7 +277,7 @@ header .header-content .header-content-inner p {
     header #intro {
         -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
-        transform: translateY(-80%);
+        transform: translateY(-100%);
     }
 }
 @media only screen and (width:414px) {
