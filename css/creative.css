@@ -82,6 +82,14 @@ p.project-steam-info {
 .text-faded-b {
     color: rgba(0,0,0,.9);
 }
+.text-a {
+    color: #fff;
+}
+.text-a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
 
 section {
     padding: 100px 0;
